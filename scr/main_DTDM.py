@@ -43,8 +43,8 @@ def seed_worker(worker_id):
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--dataset', type=str, default='sample_clean', help='choose the dataset')
-parser.add_argument('--data_path', type=str, default='datasets/sample_clean/', help='load data path')
+parser.add_argument('--dataset', type=str, default='sample_dataset', help='choose the dataset')
+parser.add_argument('--data_path', type=str, default='sample_dataset/', help='load data path')
 parser.add_argument('--lr', type=float, default=0.0001, help='learning rate')
 parser.add_argument('--weight_decay', type=float, default=0.0)
 parser.add_argument('--batch_size', type=int, default=40)  # 400
